@@ -4,7 +4,7 @@ import { Conversation } from '../models/Conversation';
 import { Message } from '../models/Message';
 import { User } from '../models/User';
 import { AuthRequest } from '../middleware/auth';
-import { useAuthStore } from './authStore';
+
 
 export const getOrCreateConversation = async (
   req: AuthRequest,
